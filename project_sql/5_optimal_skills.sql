@@ -19,7 +19,8 @@ GROUP BY s.skill_id,
     s.skills
 HAVING ROUND(AVG(j.salary_year_avg), 0) > 60000
 ORDER BY demand_count DESC,
-    avg_salary DESC;
+    avg_salary DESC
+LIMIT 11;
 /*
  - SQL is the most important skill for analyst careers in the South African job market, combining
  the highest demand with a strong average salary.

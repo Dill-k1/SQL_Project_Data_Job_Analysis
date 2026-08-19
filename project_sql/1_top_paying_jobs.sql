@@ -17,8 +17,7 @@ FROM job_postings_fact AS j
 WHERE job_title_short ILIKE '%Analyst%'
     AND job_location ILIKE '%South Africa%'
     AND salary_year_avg IS NOT NULL
-ORDER BY salary_year_avg DESC
-LIMIT 10;
+ORDER BY salary_year_avg DESC;
 /*
  Key Insights
  - Median salary of $216750 is a better indicator of a typical 'hihg-paying' analyst role
