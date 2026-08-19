@@ -261,6 +261,7 @@ Table showing the top 10 optimal skills by demand and salary for Analysts in Sou
 | **Kafka** | 5 | $98,530 |
 
 Here are some insights into the data:
+
 1. __SQL is the strongest foundational skill__. It has by far the highest demand (25 postings), although its average salary of $82,482 is below the dataset median. This makes SQL the best skill for job-market access, rather than salary maximisation alone.
 
 2. __Python__ offers a stronger salary-demand balance. With 11 postings and an average salary of $91,679, Python combines substantial demand with better earning potential than SQL.
@@ -278,7 +279,8 @@ Throughout this journey, I've added SQL to my analytics toolkit, mainly through:
 
 - 🧱 **Query Building:** Through this project I learned the basics of SQL and some advanced SQL, merging tables and using WITH statements to produce temp tables for more insightful data.
 
-- 📊 **Data Aggregation:** Got comfortable with using GROUP BY together with AVG() and COUNT() functions to summarise data.\
+- 📊 **Data Aggregation:** Got comfortable with using GROUP BY together with AVG() and COUNT() functions to summarise data.
+
 - 💭 **Analytical Thinking:** Improved my real-world problem solving abilities by turning real-world questions into actionable and insightful SQL queries.
 
 # Conclusions
